@@ -1,0 +1,10 @@
+@import url('../../index.css');
+
+.tasksContainerHeader {
+  border-bottom: 1px solid var(--clr-white);
+}
+
+.tasksContainer {
+  padding: 0 .5em;
+  color: var(--clr-white);
+}

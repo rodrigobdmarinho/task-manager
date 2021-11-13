@@ -1,0 +1,29 @@
+form {
+  padding: 1em 1.5em;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 1.5em;
+}
+
+.formTitle {
+  width: 100%;
+  text-align: center;
+}
+
+.fieldsContainer {
+  display: flex;
+  margin-bottom: 1em;
+}
+
+.inputGroup {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitBtn {
+  width: fit-content;
+  margin: auto;
+}

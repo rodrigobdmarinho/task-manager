@@ -1,0 +1,38 @@
+:root {
+  --clr-primary: #00D1B2;
+  --clr-secondary: #FFC857;
+  --clr-dark: #28464B;
+  --clr-light: #326771;
+  --clr-white: #fff;
+  --clr-red: #D90368;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr-secondary);
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-primary {
+  background-color: var(--clr-primary);
+}
+
+.bg-dark {
+  background-color: var(--clr-dark);
+}
+
+.bg-light {
+  background-color: var(--clr-light);
+}
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width: 95%;
+  }
+}

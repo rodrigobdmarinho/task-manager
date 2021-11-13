@@ -1,0 +1,39 @@
+.column {
+  display: flex;
+  align-items: center;
+}
+
+.taskFinished .taskName {
+  text-decoration: line-through;
+}
+
+.taskRemoveBtn, .taskConcludeBtn {
+  cursor: pointer;
+}
+
+.taskRemoveBtn {
+  color: var(--clr-red);
+}
+
+.taskConcludeBtn {
+  color: var(--clr-primary);
+}
+
+.buttonsColumn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonsColumn div:not(:last-child) {
+  margin-right: .25em;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttonsColumn {
+    flex-direction: column;
+  }
+
+  .buttonsColumn div {
+    margin: 0;
+  }
+}
